@@ -25,25 +25,28 @@
 
 - (void)storyMaker
 {
+    NSMutableAttributedString *mutableAttString = [[NSMutableAttributedString alloc] init];
     
-    NSString *fullStory = [NSString stringWithFormat:@"Hi my name is %@ and I'm %@. I work %@ if there is %@ in the room.", self.story.name, self.story.adjective, self.story.adverb, self.story.noun];
-
-    
-    NSRange rangeName = [fullStory rangeOfString:self.story.name];
-    NSRange rangeAdjective = [fullStory rangeOfString:self.story.adjective];
-    NSRange rangeAdverb = [fullStory rangeOfString:self.story.adverb];
-    NSRange rangeNoun = [fullStory rangeOfString:self.story.noun];
     
     UIFont *fontText = [UIFont boldSystemFontOfSize:20];
     NSDictionary *dictBoldText = [NSDictionary dictionaryWithObjectsAndKeys:fontText, NSFontAttributeName, nil];
     
-    NSMutableAttributedString *mutAttrTextViewString = [[NSMutableAttributedString alloc] initWithString:fullStory];
-    [mutAttrTextViewString setAttributes:dictBoldText range:rangeName];
-    [mutAttrTextViewString addAttributes:dictBoldText range:rangeAdjective];
-    [mutAttrTextViewString addAttributes:dictBoldText range:rangeAdverb];
-    [mutAttrTextViewString addAttributes:dictBoldText range:rangeNoun];
+    NSArray *stringsToConvert = [NSArray arrayWithObjects:@"Hi my name is ", self.story.name, @" and I'm ", self.story.adjective, @". I work ", self.story.adverb, @" if there is ", self.story.noun, @" in the room.", nil];
     
-    [self.resultsTextView setAttributedText:mutAttrTextViewString];
+    for(int i=0; i < stringsToConvert.count; i++){
+        if(i%2==1)
+        {
+            NSAttributedString *newAttString = [[NSAttributedString alloc] initWithString:[stringsToConvert objectAtIndex:i] attributes:dictBoldText];
+            [mutableAttString appendAttributedString:newAttString];
+        }
+        else
+        {
+            NSAttributedString *newAttString = [[NSAttributedString alloc] initWithString:[stringsToConvert objectAtIndex:i]];
+            [mutableAttString appendAttributedString:newAttString];
+        }
+    }
+
+    [self.resultsTextView setAttributedText:mutableAttString];
 }
 
 

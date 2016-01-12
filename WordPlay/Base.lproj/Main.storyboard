@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8gH-pO-xN6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8gH-pO-xN6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -80,6 +82,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sIA-Mb-976"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sRC-fH-64M">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k4s-1e-cVI">
@@ -133,7 +136,7 @@
                                     <constraint firstAttribute="width" constant="101" id="qVq-Pq-KKS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -165,12 +168,12 @@
                                 <exclude reference="vIl-EZ-qoR"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6bl-Hz-C2h"/>
-                                <exclude reference="Lgg-fI-Ox8"/>
                                 <exclude reference="BB1-pi-rC2"/>
                                 <exclude reference="lP8-Ac-fwd"/>
                                 <exclude reference="7eK-zK-Uwm"/>
                                 <exclude reference="Xwi-ce-p3C"/>
+                                <exclude reference="6bl-Hz-C2h"/>
+                                <exclude reference="Lgg-fI-Ox8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -180,12 +183,12 @@
                                 <include reference="vIl-EZ-qoR"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6bl-Hz-C2h"/>
-                                <include reference="Lgg-fI-Ox8"/>
                                 <include reference="BB1-pi-rC2"/>
                                 <include reference="lP8-Ac-fwd"/>
                                 <include reference="7eK-zK-Uwm"/>
                                 <include reference="Xwi-ce-p3C"/>
+                                <include reference="6bl-Hz-C2h"/>
+                                <include reference="Lgg-fI-Ox8"/>
                             </mask>
                         </variation>
                     </view>
@@ -225,6 +228,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ekr-74-gnP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nIh-pR-Wsk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x1h-KJ-gkB">
@@ -278,7 +282,7 @@
                                     <constraint firstAttribute="height" constant="21" id="upT-93-eWi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -310,12 +314,12 @@
                                 <exclude reference="mCW-l9-R1e"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="np8-Q2-6Kg"/>
-                                <exclude reference="z2X-qS-hjV"/>
                                 <exclude reference="0KL-Gd-Xec"/>
                                 <exclude reference="nmC-2E-NAv"/>
                                 <exclude reference="95n-hF-Yzq"/>
                                 <exclude reference="xa1-3I-rr6"/>
+                                <exclude reference="np8-Q2-6Kg"/>
+                                <exclude reference="z2X-qS-hjV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -325,12 +329,12 @@
                                 <include reference="mCW-l9-R1e"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="np8-Q2-6Kg"/>
-                                <include reference="z2X-qS-hjV"/>
                                 <include reference="0KL-Gd-Xec"/>
                                 <include reference="nmC-2E-NAv"/>
                                 <include reference="95n-hF-Yzq"/>
                                 <include reference="xa1-3I-rr6"/>
+                                <include reference="np8-Q2-6Kg"/>
+                                <include reference="z2X-qS-hjV"/>
                             </mask>
                         </variation>
                     </view>
@@ -352,6 +356,7 @@
                         <viewControllerLayoutGuide type="bottom" id="H2Z-4m-ynj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ys8-x1-2Lm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an noun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-Gc-0ZK">
@@ -361,7 +366,7 @@
                                     <constraint firstAttribute="width" constant="106" id="fLo-IC-Jbl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -437,12 +442,12 @@
                                 <exclude reference="gUK-ZX-DLO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ZDv-AA-sho"/>
-                                <exclude reference="jaX-wB-ti6"/>
                                 <exclude reference="But-QF-dno"/>
                                 <exclude reference="ggC-7L-9Ed"/>
                                 <exclude reference="B6r-2Q-tI4"/>
                                 <exclude reference="SE2-sO-cZk"/>
+                                <exclude reference="ZDv-AA-sho"/>
+                                <exclude reference="jaX-wB-ti6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -452,12 +457,12 @@
                                 <include reference="gUK-ZX-DLO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ZDv-AA-sho"/>
-                                <include reference="jaX-wB-ti6"/>
                                 <include reference="But-QF-dno"/>
                                 <include reference="ggC-7L-9Ed"/>
                                 <include reference="B6r-2Q-tI4"/>
                                 <include reference="SE2-sO-cZk"/>
+                                <include reference="ZDv-AA-sho"/>
+                                <include reference="jaX-wB-ti6"/>
                             </mask>
                         </variation>
                     </view>
@@ -478,6 +483,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BYq-nE-sjE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kr3-Tv-M8f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wpx-2i-rZM">
@@ -524,12 +530,12 @@
                                 <exclude reference="Qum-Xa-HUK"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Vdd-SY-Bvb"/>
+                                <exclude reference="0h6-7S-gzC"/>
+                                <exclude reference="kbH-J1-IXX"/>
                                 <exclude reference="TwX-wF-9qb"/>
                                 <exclude reference="Ye7-Vh-uhR"/>
                                 <exclude reference="qI1-RL-MM7"/>
-                                <exclude reference="0h6-7S-gzC"/>
-                                <exclude reference="kbH-J1-IXX"/>
-                                <exclude reference="Vdd-SY-Bvb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -538,12 +544,12 @@
                                 <include reference="Qum-Xa-HUK"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Vdd-SY-Bvb"/>
+                                <include reference="0h6-7S-gzC"/>
+                                <include reference="kbH-J1-IXX"/>
                                 <include reference="TwX-wF-9qb"/>
                                 <include reference="Ye7-Vh-uhR"/>
                                 <include reference="qI1-RL-MM7"/>
-                                <include reference="0h6-7S-gzC"/>
-                                <include reference="kbH-J1-IXX"/>
-                                <include reference="Vdd-SY-Bvb"/>
                             </mask>
                         </variation>
                     </view>
@@ -566,6 +572,7 @@
                         <viewControllerLayoutGuide type="bottom" id="qxX-u7-ae0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vum-Wl-BEu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an adverb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoN-1u-MCm">
@@ -575,7 +582,7 @@
                                     <constraint firstAttribute="height" constant="21" id="84J-u2-Toz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -651,12 +658,12 @@
                                 <exclude reference="uFn-LG-8we"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1je-v4-DQO"/>
-                                <exclude reference="8lU-aq-op8"/>
                                 <exclude reference="ESh-6w-7oe"/>
                                 <exclude reference="cQ6-oy-HUv"/>
                                 <exclude reference="31U-LV-TRG"/>
                                 <exclude reference="6iY-mj-h8a"/>
+                                <exclude reference="1je-v4-DQO"/>
+                                <exclude reference="8lU-aq-op8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -666,12 +673,12 @@
                                 <include reference="uFn-LG-8we"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1je-v4-DQO"/>
-                                <include reference="8lU-aq-op8"/>
                                 <include reference="ESh-6w-7oe"/>
                                 <include reference="cQ6-oy-HUv"/>
                                 <include reference="31U-LV-TRG"/>
                                 <include reference="6iY-mj-h8a"/>
+                                <include reference="1je-v4-DQO"/>
+                                <include reference="8lU-aq-op8"/>
                             </mask>
                         </variation>
                     </view>
