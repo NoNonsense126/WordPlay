@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EnterNounViewController.h
 //  WordPlay
 //
 //  Created by Julian Lee on 1/11/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Story.h"
 
-@interface ViewController : UIViewController
-
-
+@interface EnterNounViewController : UIViewController
+@property Story *story;
 @end
-

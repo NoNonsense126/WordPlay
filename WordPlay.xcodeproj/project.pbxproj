@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		B920ACB91C44684500815DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACB81C44684500815DF9 /* main.m */; };
 		B920ACBC1C44684500815DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACBB1C44684500815DF9 /* AppDelegate.m */; };
-		B920ACBF1C44684500815DF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACBE1C44684500815DF9 /* ViewController.m */; };
 		B920ACC21C44684500815DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B920ACC01C44684500815DF9 /* Main.storyboard */; };
 		B920ACC41C44684500815DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B920ACC31C44684500815DF9 /* Assets.xcassets */; };
 		B920ACC71C44684500815DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B920ACC51C44684500815DF9 /* LaunchScreen.storyboard */; };
+		B920ACD01C44687400815DF9 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACCF1C44687400815DF9 /* SplashViewController.m */; };
+		B920ACD31C4468EF00815DF9 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACD21C4468EF00815DF9 /* EnterNameViewController.m */; };
+		B920ACD61C4469E200815DF9 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACD51C4469E200815DF9 /* EnterAdjectiveViewController.m */; };
+		B920ACD91C446A5800815DF9 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACD81C446A5800815DF9 /* ResultsViewController.m */; };
+		B920ACDC1C4479BE00815DF9 /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACDB1C4479BE00815DF9 /* EnterAdverbViewController.m */; };
+		B920ACDF1C447A0B00815DF9 /* EnterNounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACDE1C447A0B00815DF9 /* EnterNounViewController.m */; };
+		B920ACE21C447C6500815DF9 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = B920ACE11C447C6500815DF9 /* Story.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,24 @@
 		B920ACB81C44684500815DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B920ACBA1C44684500815DF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B920ACBB1C44684500815DF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B920ACBD1C44684500815DF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B920ACBE1C44684500815DF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B920ACC11C44684500815DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B920ACC31C44684500815DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B920ACC61C44684500815DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B920ACC81C44684500815DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B920ACCE1C44687400815DF9 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = ../SplashViewController.h; sourceTree = "<group>"; };
+		B920ACCF1C44687400815DF9 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = ../SplashViewController.m; sourceTree = "<group>"; };
+		B920ACD11C4468EF00815DF9 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		B920ACD21C4468EF00815DF9 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		B920ACD41C4469E200815DF9 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		B920ACD51C4469E200815DF9 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		B920ACD71C446A5800815DF9 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		B920ACD81C446A5800815DF9 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		B920ACDA1C4479BE00815DF9 /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdverbViewController.h; sourceTree = "<group>"; };
+		B920ACDB1C4479BE00815DF9 /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdverbViewController.m; sourceTree = "<group>"; };
+		B920ACDD1C447A0B00815DF9 /* EnterNounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNounViewController.h; sourceTree = "<group>"; };
+		B920ACDE1C447A0B00815DF9 /* EnterNounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNounViewController.m; sourceTree = "<group>"; };
+		B920ACE01C447C6500815DF9 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		B920ACE11C447C6500815DF9 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,21 @@
 		B920ACB61C44684500815DF9 /* WordPlay */ = {
 			isa = PBXGroup;
 			children = (
-				B920ACBA1C44684500815DF9 /* AppDelegate.h */,
-				B920ACBB1C44684500815DF9 /* AppDelegate.m */,
-				B920ACBD1C44684500815DF9 /* ViewController.h */,
-				B920ACBE1C44684500815DF9 /* ViewController.m */,
 				B920ACC01C44684500815DF9 /* Main.storyboard */,
+				B920ACDD1C447A0B00815DF9 /* EnterNounViewController.h */,
+				B920ACDE1C447A0B00815DF9 /* EnterNounViewController.m */,
+				B920ACDA1C4479BE00815DF9 /* EnterAdverbViewController.h */,
+				B920ACDB1C4479BE00815DF9 /* EnterAdverbViewController.m */,
+				B920ACE01C447C6500815DF9 /* Story.h */,
+				B920ACE11C447C6500815DF9 /* Story.m */,
+				B920ACD71C446A5800815DF9 /* ResultsViewController.h */,
+				B920ACD81C446A5800815DF9 /* ResultsViewController.m */,
+				B920ACD41C4469E200815DF9 /* EnterAdjectiveViewController.h */,
+				B920ACD51C4469E200815DF9 /* EnterAdjectiveViewController.m */,
+				B920ACD11C4468EF00815DF9 /* EnterNameViewController.h */,
+				B920ACD21C4468EF00815DF9 /* EnterNameViewController.m */,
+				B920ACCE1C44687400815DF9 /* SplashViewController.h */,
+				B920ACCF1C44687400815DF9 /* SplashViewController.m */,
 				B920ACC31C44684500815DF9 /* Assets.xcassets */,
 				B920ACC51C44684500815DF9 /* LaunchScreen.storyboard */,
 				B920ACC81C44684500815DF9 /* Info.plist */,
@@ -74,6 +102,8 @@
 		B920ACB71C44684500815DF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B920ACBA1C44684500815DF9 /* AppDelegate.h */,
+				B920ACBB1C44684500815DF9 /* AppDelegate.m */,
 				B920ACB81C44684500815DF9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,9 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B920ACBF1C44684500815DF9 /* ViewController.m in Sources */,
 				B920ACBC1C44684500815DF9 /* AppDelegate.m in Sources */,
+				B920ACDF1C447A0B00815DF9 /* EnterNounViewController.m in Sources */,
 				B920ACB91C44684500815DF9 /* main.m in Sources */,
+				B920ACE21C447C6500815DF9 /* Story.m in Sources */,
+				B920ACD61C4469E200815DF9 /* EnterAdjectiveViewController.m in Sources */,
+				B920ACDC1C4479BE00815DF9 /* EnterAdverbViewController.m in Sources */,
+				B920ACD91C446A5800815DF9 /* ResultsViewController.m in Sources */,
+				B920ACD31C4468EF00815DF9 /* EnterNameViewController.m in Sources */,
+				B920ACD01C44687400815DF9 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
